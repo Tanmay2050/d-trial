@@ -12,4 +12,4 @@ phases:
   post_build:
     commands:
       - echo "Deploying to S3..."
-      - aws s3 sync . s3://dn-exp-9-devops --delete
+      - aws s3 sync . s3://trial-s3-demo-devop --delete
